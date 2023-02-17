@@ -60,7 +60,7 @@ def webServer(port=13331):
 
       #Close client socket
       #Fill in start
-
+      serverSocket.close()
       #Fill in end
 
   #Commenting out the below, as its technically not required and some students have moved it erroneously in the While loop. DO NOT DO THAT OR YOURE GONNA HAVE A BAD TIME.
